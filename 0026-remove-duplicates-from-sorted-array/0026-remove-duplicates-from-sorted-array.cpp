@@ -1,15 +1,15 @@
-#include <vector>
-#include <set>
-
 class Solution {
 public:
-    int removeDuplicates(std::vector<int>& nums) {
-        std::set<int> st;
-        for (int i = 0; i < nums.size(); i++) {
-            st.insert(nums[i]);
+    int removeDuplicates(vector<int>& nums) {
+        if (nums.empty()) return 0;
+
+        int cnt = 1;  // Start from the second element
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] != nums[i - 1]) {
+                nums[cnt] = nums[i];
+                cnt++;
+            }
         }
-       nums.assign(st.begin(), st.end());
-        return nums.size();
-        
+        return cnt;
     }
 };
