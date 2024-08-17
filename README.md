@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/khushi767/DSA__/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/khushi767/DSA__/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/khushi767/DSA__/tree/master/0283-move-zeroes) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/khushi767/DSA__/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Binary Search
 |  |
@@ -49,4 +50,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/khushi767/DSA__/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/khushi767/DSA__/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/khushi767/DSA__/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
