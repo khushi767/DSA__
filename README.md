@@ -80,4 +80,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/khushi767/DSA__/tree/master/0008-string-to-integer-atoi) |
+| [1078-remove-outermost-parentheses](https://github.com/khushi767/DSA__/tree/master/1078-remove-outermost-parentheses) |
+## Stack
+|  |
+| ------- |
+| [1078-remove-outermost-parentheses](https://github.com/khushi767/DSA__/tree/master/1078-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
