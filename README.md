@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/khushi767/DSA__/tree/master/0485-max-consecutive-ones) |
 | [0792-binary-search](https://github.com/khushi767/DSA__/tree/master/0792-binary-search) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/khushi767/DSA__/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/khushi767/DSA__/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Binary Search
 |  |
 | ------- |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/khushi767/DSA__/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/khushi767/DSA__/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/khushi767/DSA__/tree/master/0283-move-zeroes) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/khushi767/DSA__/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
 | ------- |
@@ -110,4 +112,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1203-print-in-order](https://github.com/khushi767/DSA__/tree/master/1203-print-in-order) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/khushi767/DSA__/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
