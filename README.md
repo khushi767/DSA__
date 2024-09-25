@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/khushi767/DSA__/tree/master/0225-implement-stack-using-queues) |
 | [1078-remove-outermost-parentheses](https://github.com/khushi767/DSA__/tree/master/1078-remove-outermost-parentheses) |
 ## Divide and Conquer
 |  |
@@ -131,4 +132,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/khushi767/DSA__/tree/master/2271-rearrange-array-elements-by-sign) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/khushi767/DSA__/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/khushi767/DSA__/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
