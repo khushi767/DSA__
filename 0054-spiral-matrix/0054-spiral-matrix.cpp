@@ -29,7 +29,5 @@ left++;
 
 }
 return ans;
-
-
-    }
+  }
 };
