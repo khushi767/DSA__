@@ -51,3 +51,4 @@ return cnt;
     }
 };
 
+//O(n)=TC SC=O(1)
