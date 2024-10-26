@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/khushi767/DSA__/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/khushi767/DSA__/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/khushi767/DSA__/tree/master/0540-single-element-in-a-sorted-array) |
+| [0560-subarray-sum-equals-k](https://github.com/khushi767/DSA__/tree/master/0560-subarray-sum-equals-k) |
 | [0792-binary-search](https://github.com/khushi767/DSA__/tree/master/0792-binary-search) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/khushi767/DSA__/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/khushi767/DSA__/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/khushi767/DSA__/tree/master/0560-subarray-sum-equals-k) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/khushi767/DSA__/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Two Pointers
 |  |
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/khushi767/DSA__/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/khushi767/DSA__/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/khushi767/DSA__/tree/master/0268-missing-number) |
+| [0560-subarray-sum-equals-k](https://github.com/khushi767/DSA__/tree/master/0560-subarray-sum-equals-k) |
 ## Bit Manipulation
 |  |
 | ------- |
