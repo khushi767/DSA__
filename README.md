@@ -180,4 +180,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1153-product-sales-analysis-i](https://github.com/khushi767/DSA__/tree/master/1153-product-sales-analysis-i) |
 | [1161-project-employees-i](https://github.com/khushi767/DSA__/tree/master/1161-project-employees-i) |
 | [1174-sales-analysis-iii](https://github.com/khushi767/DSA__/tree/master/1174-sales-analysis-iii) |
+## Tree
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/khushi767/DSA__/tree/master/0101-symmetric-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/khushi767/DSA__/tree/master/0101-symmetric-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/khushi767/DSA__/tree/master/0101-symmetric-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/khushi767/DSA__/tree/master/0101-symmetric-tree) |
 <!---LeetCode Topics End-->
