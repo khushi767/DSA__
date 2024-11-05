@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/khushi767/DSA__/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/khushi767/DSA__/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/khushi767/DSA__/tree/master/0035-search-insert-position) |
+| [0049-group-anagrams](https://github.com/khushi767/DSA__/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/khushi767/DSA__/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/khushi767/DSA__/tree/master/0054-spiral-matrix) |
 | [0075-sort-colors](https://github.com/khushi767/DSA__/tree/master/0075-sort-colors) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/khushi767/DSA__/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/khushi767/DSA__/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/khushi767/DSA__/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/khushi767/DSA__/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/khushi767/DSA__/tree/master/0268-missing-number) |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/khushi767/DSA__/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/khushi767/DSA__/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/khushi767/DSA__/tree/master/0133-clone-graph) |
 | [0169-majority-element](https://github.com/khushi767/DSA__/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/khushi767/DSA__/tree/master/0268-missing-number) |
@@ -120,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/khushi767/DSA__/tree/master/0008-string-to-integer-atoi) |
+| [0049-group-anagrams](https://github.com/khushi767/DSA__/tree/master/0049-group-anagrams) |
 | [0091-decode-ways](https://github.com/khushi767/DSA__/tree/master/0091-decode-ways) |
 | [1078-remove-outermost-parentheses](https://github.com/khushi767/DSA__/tree/master/1078-remove-outermost-parentheses) |
 ## Stack
