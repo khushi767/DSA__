@@ -1,16 +1,19 @@
 class TimeMap {
 public:
-unordered_map<string,vector<pair<int,string>>>mp;
+//unordered_map<string,vector<pair<int,string>>>mp;
+unordered_map<string,map<int,string>> mp;
     TimeMap() {
         
       
     }
     
     void set(string key, string value, int timestamp) {
-        mp[key].push_back({timestamp,value});
+       //mp[key].push_back({timestamp,value});
+       mp[key][timestamp]=value;
     }
     
     string get(string key, int timestamp) {
+ /*       //using binary search
        if(mp.find(key)==mp.end())return "";
        auto &v=mp[key];
        int left=0,right=v.size()-1;
@@ -24,7 +27,13 @@ unordered_map<string,vector<pair<int,string>>>mp;
             right=mid-1;
         }
        } 
-       return res;
+       return res;*/
+
+       if(mp.find(key)==mp.end())return "";
+       auto it=mp[key].upper_bound(timestamp);
+       if(it==mp[key].begin())return "";
+       --it;
+       return it->second;
     }
 };
 
