@@ -1,32 +1,33 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
-/*
-        Complexity:
+        /*Brute approach: TC=O(n^2),sc=O(1)
+     int n=nums.size();
+     vector<int>ans(n,1);
+     for(int i=0;i<n;i++){
+        long long prod=1;
+        for(int j=0;j<n;j++){
+            if(i==j)continue;
+            prod=prod*nums[j];
+        }
+        ans[i]=(int)prod;
+     }
+     return ans;*/
 
-Time: O(n²)
+     int n=nums.size();
+     vector<long long>prefix(n,1),suffix(n,1);
+     vector<int>ans(n,0);
+     prefix[0]=nums[0];
+     for(int i=1;i<n;i++)prefix[i]=prefix[i-1]*nums[i];
+     suffix[n-1]=nums[n-1];
+     for(int i=n-2;i>=0;i--)suffix[i]=suffix[i+1]*nums[i];
+     for(int i=0;i<n;i++){
+        long long left=(i==0)?1:prefix[i-1];
+        long long right=(i==n-1)?1:suffix[i+1];
+        ans[i]=(int)(left*right);
 
-Space: O(1) (ignoring output array)
-        int n=nums.size();
-        vector<int>ans(n,1);
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(i!=j)ans[i]*=nums[j];
-            }
-        }
-        return ans;*/
+     }
+     return ans;
 
-        int n=nums.size();
-        vector<int>prefix(n,1),suffix(n,1),ans(n);
-        for(int i=1;i<n;i++){
-            prefix[i]=prefix[i-1]*nums[i-1];
-        }
-        for(int i=n-2;i>=0;i--){
-            suffix[i]=suffix[i+1]*nums[i+1];
-        }
-        for(int i=0;i<n;i++){
-            ans[i]=prefix[i]*suffix[i];
-        }
-        return ans;
     }
 };
