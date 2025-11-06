@@ -33,10 +33,31 @@ bool isAnagram(string a,string b){
         }
         return res;*/
 
+/*better approach: Sorting each string: O(k log k)
+Doing it for all strings: O(n * k log k)
+
+
         unordered_map<string,vector<string>>mp;
         for(string s:strs){
             string key=s;
             sort(key.begin(),key.end());
+            mp[key].push_back(s);
+        }
+        vector<vector<string>>res;
+        for(auto &p:mp)
+        res.push_back(p.second);
+        return res;*/
+
+        //freq based key optimal approach, instead of sorting create a 26 length freq vector for each string and use as key
+        //TC=O(K*n)k for counting freq per string, n is no of input
+
+        unordered_map<string,vector<string>>mp;
+        for(string s:strs){
+            vector<int>freq(26,0);
+            for(char c:s)freq[c-'a']++;
+            string key;
+            for(int f:freq)
+            key+=to_string(f)+"#";
             mp[key].push_back(s);
         }
         vector<vector<string>>res;
