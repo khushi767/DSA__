@@ -12,6 +12,7 @@ public:
         }
         return maxprofit;*/
 
+/*better approach: Better Approach (Prefix Min + One Pass) — O(n), ✅ Time: O(n),❌ Space: O(n)
         vector<int>minleft(n);
         minleft[0]=prices[0];
         for(int i=1;i<n;i++)
@@ -21,7 +22,17 @@ public:
             int profit=prices[i]-minleft[i];
             maxprofit=max(maxprofit,profit);
         }
-        return maxprofit;
+        return maxprofit;*/
+
+        int minPrice=INT_MAX;
+        int maxProfit=0;
+        for(int price:prices){
+            if(price<minPrice)
+            minPrice=price;
+            else
+            maxProfit=max(maxProfit,price-minPrice);
+        }
+        return maxProfit;
 
     }
 };
