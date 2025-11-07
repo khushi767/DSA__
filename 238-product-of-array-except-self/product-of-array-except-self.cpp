@@ -14,6 +14,7 @@ public:
      }
      return ans;*/
 
+/*better approach: Complexities: O(n) time, O(n) extra space.
      int n=nums.size();
      vector<long long>prefix(n,1),suffix(n,1);
      vector<int>ans(n,0);
@@ -28,6 +29,20 @@ public:
 
      }
      return ans;
+     */
 
+     int n=nums.size();
+     vector<int>ans(n,1);
+     long long leftproduct=1;
+     for(int i=0;i<n;i++){
+        ans[i]=(int)leftproduct;
+        leftproduct=leftproduct*nums[i];
+     }
+     long long rightProduct=1;
+     for(int i=n-1;i>=0;i--){
+        ans[i]=(int)((long long)ans[i]*rightProduct);
+        rightProduct*=nums[i];
+     }
+     return ans;
     }
 };
