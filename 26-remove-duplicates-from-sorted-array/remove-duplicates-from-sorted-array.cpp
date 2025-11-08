@@ -8,9 +8,14 @@ public:
             if(nums[j]!=nums[j-1]){
                 nums[i]=nums[j];
                 ++i;
+
             }
+            
         }
         return i;
+
+
+    
      /*   int n=nums.size();
         if(n==0)return 0;
         vector<int>unique;
