@@ -3,6 +3,22 @@ public:
     int removeDuplicates(vector<int>& nums) {
         int n=nums.size();
         if(n==0)return 0;
+        vector<int>unique;
+        unique.reserve(n);
+        unique.push_back(nums[0]);
+        for(int i=1;i<n;i++){
+            if(nums[i]!=nums[i-1]){
+                unique.push_back(nums[i]);
+            }
+        }
+        for(int i=0;i<(int)unique.size();i++){
+            nums[i]=unique[i];
+        }
+        return unique.size();
+        /*
+        Brute-force (in-place, O(n²) time, O(1) extra space
+        int n=nums.size();
+        if(n==0)return 0;
         int i=0;
         while(i<n-1){
             if(nums[i]==nums[i+1]){
@@ -15,6 +31,7 @@ public:
             }
         }
         return n;
+        */
      
     }
 };
