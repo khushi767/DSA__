@@ -1,6 +1,9 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
+        /*Time: O(S) → total number of characters in all strings (since we scan through each column across all strings).
+
+Space: O(1) extra (only a few variables + prefix string).*/
         if(strs.empty())return "";
         int numstrings=strs.size();
         int minlength=INT_MAX;
