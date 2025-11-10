@@ -1,6 +1,28 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
+        if(strs.empty())return "";
+        int numstrings=strs.size();
+        int minlength=INT_MAX;
+        for(const string &s:strs){
+            minlength=min(minlength,(int)s.size());
+        }
+        if(minlength==0)return "";
+
+        string prefix="";
+        for(int pos=0;pos<minlength;++pos){
+            char currentchar=strs[0][pos];
+            for(int i=1;i<numstrings;++i){
+                if(strs[i][pos]!=currentchar){
+                    return prefix;
+                }
+            }
+            prefix.push_back(currentchar);
+        }
+        return prefix;
+
+
+        /*
 // Better approach, sort string comapre last and first element
 //TC=O(n log n * m), SC=O(1)
 if(strs.empty())return "";
@@ -10,7 +32,7 @@ string last=strs.back();
 int minlen=min(first.size(),last.size());
 int i=0;
 while(i<minlen && first[i]==last[i])++i;
-return first.substr(0,i);
+return first.substr(0,i);*/
 
 
         /* //brute force: O(n⋅m2), SC=O(1)
