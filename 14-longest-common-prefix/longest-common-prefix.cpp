@@ -1,6 +1,19 @@
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
+// Better approach, sort string comapre last and first element
+//TC=O(n log n * m), SC=O(1)
+if(strs.empty())return "";
+sort(strs.begin(),strs.end());
+string first=strs.front();
+string last=strs.back();
+int minlen=min(first.size(),last.size());
+int i=0;
+while(i<minlen && first[i]==last[i])++i;
+return first.substr(0,i);
+
+
+        /* //brute force: O(n⋅m2), SC=O(1)
         if(strs.empty())return "";
         string first=strs[0];
         int maxlen=first.size();
@@ -16,6 +29,6 @@ public:
             if(ok)return candidate;
 
         }
-        return "";
+        return "";*/
     }
 };
