@@ -29,3 +29,16 @@ public:
         return nums[low];
     }
 };
+/*
+nums = [3,4,5,1,2]:
+
+low=0,high=4,mid=2 -> nums[2]=5 > nums[4]=2 -> low=3
+
+low=3,high=4,mid=3 -> nums[3]=1 <= nums[4]=2 -> high=3
+
+low==high==3 -> return nums[3]=1
+
+nums = [0,1,2,4,5,6,7] (rotated n times or not rotated):
+
+initial nums[0] <= nums[6], loop still works; it'll reduce to low=0 -> return 0.
+*/
